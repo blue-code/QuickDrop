@@ -1,4 +1,4 @@
-# QuickDrop Clone
+# QuickDrop
 
 macOS용 프로그램입니다. 화면 상단에서 빠르게 파일과 폴더에 접근할 수 있는 생산성 도구입니다.
 
