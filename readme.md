@@ -67,12 +67,12 @@ chmod +x build.sh
 python setup.py py2app
 
 # DMG 생성 (선택사항)
-hdiutil create -volname "QuickDrop" -srcfolder dist -ov -format UDZO FolderHub.dmg
+hdiutil create -volname "QuickDrop" -srcfolder dist -ov -format UDZO QuickDrop.dmg
 ```
 
 ## 설치 방법
 
-1. 생성된 `FolderHub-1.0.0.dmg` 파일을 더블클릭
+1. 생성된 `QuickDrop-1.0.0.dmg` 파일을 더블클릭
 2. `QuickDrop.app`을 Applications 폴더로 드래그
 3. Applications 폴더에서 QuickDrop 실행
 
@@ -102,7 +102,7 @@ hdiutil create -volname "QuickDrop" -srcfolder dist -ov -format UDZO FolderHub.d
 ## 설정 파일
 
 설정은 자동으로 저장됩니다:
-- 위치: `~/.folder_hub_config.json`
+- 위치: `~/.quick_drop_config.json`
 - 내용: 워크스페이스 이름과 경로
 
 ## 문제 해결
